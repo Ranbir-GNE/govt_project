@@ -1,0 +1,51 @@
+/* ============================================================
+   PHULKARI HERITAGE ARCHIVE — Color Tokens
+   Single source of truth for all color values.
+   Import in client/src/index.css after the Tailwind directives.
+   ============================================================ */
+
+:root {
+  /* ---- Core Neutrals ---- */
+  --color-paper: #F4EFE5;        /* Archival paper — page background */
+  --color-cream: #EDE3D2;        /* Warm cream — cards, panels */
+  --color-ink: #1E1C19;          /* Ink charcoal — headlines, body, footer bg */
+  --color-ink-soft: #4A453E;     /* Softened ink — secondary text */
+  --color-hairline: rgba(30, 28, 25, 0.15); /* Hairline column dividers */
+
+  /* ---- Primary Accents ---- */
+  --color-maroon: #7D2922;       /* Deep maroon — eyebrows, numerals, buttons, bands */
+  --color-terracotta: #A94B3D;   /* Muted terracotta — hover state, secondary accent */
+
+  /* ---- Secondary Accents ---- */
+  --color-thread-green: #596B42; /* Thread green */
+  --color-indigo: #294F68;       /* Indigo */
+  --color-saffron: #C88A27;      /* Saffron — focus rings, small highlights */
+  --color-zari-gold: #C9A227;    /* Zari gold — links/text on dark bands */
+
+  /* ---- Tradition Band Backgrounds (Home: Reeti-Rivaz) ---- */
+  --band-viah: #7D2922;          /* 01 Viah — Wedding Traditions, deep red */
+  --band-suhaag: #3E4A2E;        /* 02 Suhaag — Bridal Phulkari, mehndi green */
+  --band-trinjan: #1E3A4F;       /* 03 Trinjan — Women & Embroidery, indigo navy */
+  --band-bhaiya: #B08D3E;        /* 04 Bhaiya — Bonds & Blessings, ochre */
+
+  /* ---- Phulkari Color Language (Explore section swatches) ---- */
+  --phulkari-kasoori: #A8763E;   /* Kasoori — earthy ochre */
+  --phulkari-gulabi: #D9A0A4;    /* Gulabi — blush pink */
+  --phulkari-neela: #294F68;     /* Neela — indigo blue */
+  --phulkari-hara: #596B42;      /* Hara — mehndi green */
+  --phulkari-sunehri: #C9A227;   /* Sunehri — zari gold */
+  --phulkari-laal: #8E2F26;      /* Laal — heritage red */
+
+  /* ---- Semantic Aliases (use these in components) ---- */
+  --color-bg: var(--color-paper);
+  --color-bg-card: var(--color-cream);
+  --color-text: var(--color-ink);
+  --color-text-muted: var(--color-ink-soft);
+  --color-accent: var(--color-maroon);
+  --color-accent-hover: var(--color-terracotta);
+  --color-on-dark: var(--color-paper);       /* Text on colored bands */
+  --color-link-on-dark: var(--color-zari-gold);
+  --color-footer-bg: var(--color-ink);
+  --color-focus-ring: var(--color-saffron);  /* A11y focus indicator */
+}
+

@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Phulkari Heritage Archive — a museum-style archive preserving Punjabi Phulkari textile art, motifs, artisans and cultural stories."
+    />
+    <title>Phulkari Heritage Archive — ਫੁਲਕਾਰੀ ਵਿਰਾਸਤ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Gurmukhi:wght@400;500;600&family=Noto+Serif+Gurmukhi:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      #boot-loader {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        background: #f4efe5;
+        transition:
+          opacity 0.5s ease,
+          visibility 0.5s ease;
+      }
+      #boot-loader.boot-done {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
+      .boot-mark {
+        width: 62px;
+        height: 62px;
+        animation: boot-spin 9s linear infinite;
+      }
+      .boot-gold {
+        animation: boot-pulse 2.2s ease-in-out infinite;
+      }
+      .boot-title {
+        margin: 10px 0 0;
+        font-family: 'Noto Serif', Georgia, 'Times New Roman', serif;
+        font-size: 1.35rem;
+        font-weight: 600;
+        letter-spacing: 0.42em;
+        text-indent: 0.42em;
+        color: #1e1c19;
+      }
+      .boot-sub {
+        margin: 0;
+        font-family: 'Noto Sans', system-ui, sans-serif;
+        font-size: 0.58rem;
+        font-weight: 600;
+        letter-spacing: 0.34em;
+        text-indent: 0.34em;
+        text-transform: uppercase;
+        color: #4a453e;
+      }
+      .boot-thread {
+        margin-top: 16px;
+        width: 150px;
+        height: 2px;
+        background-image: repeating-linear-gradient(90deg, #7d2922 0 8px, transparent 8px 14px);
+        animation:
+          boot-grow 0.9s cubic-bezier(0.33, 1, 0.68, 1) both,
+          boot-stitch 1.1s linear infinite;
+      }
+      .boot-note {
+        margin-top: 6px;
+        font-family: 'Noto Sans', system-ui, sans-serif;
+        font-size: 0.62rem;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: rgba(74, 69, 62, 0.6);
+      }
+      .boot-sr {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      @keyframes boot-spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes boot-stitch {
+        to {
+          background-position: 14px 0;
+        }
+      }
+      @keyframes boot-grow {
+        from {
+          transform: scaleX(0);
+        }
+        to {
+          transform: scaleX(1);
+        }
+      }
+      @keyframes boot-pulse {
+        0%,
+        100% {
+          opacity: 0.35;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .boot-mark,
+        .boot-thread,
+        .boot-gold {
+          animation: none;
+        }
+        .boot-thread {
+          transform: scaleX(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="boot-loader" aria-hidden="true">
+      <svg class="boot-mark" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+        <g fill="#7D2922">
+          <ellipse cx="24" cy="13" rx="4.6" ry="9" />
+          <ellipse cx="24" cy="35" rx="4.6" ry="9" />
+          <ellipse cx="13" cy="24" rx="9" ry="4.6" />
+          <ellipse cx="35" cy="24" rx="9" ry="4.6" />
+          <ellipse cx="16.2" cy="16.2" rx="8" ry="3.8" transform="rotate(-45 16.2 16.2)" />
+          <ellipse cx="31.8" cy="16.2" rx="8" ry="3.8" transform="rotate(45 31.8 16.2)" />
+          <ellipse cx="16.2" cy="31.8" rx="8" ry="3.8" transform="rotate(45 16.2 31.8)" />
+          <ellipse cx="31.8" cy="31.8" rx="8" ry="3.8" transform="rotate(-45 31.8 31.8)" />
+        </g>
+        <circle class="boot-gold" cx="24" cy="24" r="5.5" fill="#C9A227" />
+      </svg>
+      <p class="boot-title">PHULKARI</p>
+      <p class="boot-sub">Heritage of Punjab</p>
+      <div class="boot-thread"></div>
+      <p class="boot-note">Loading the archive</p>
+      <span class="boot-sr">Loading the Phulkari Heritage Archive. Please wait.</span>
+    </div>
+    <div id="root"></div>
+    <noscript>
+      <style>
+        #boot-loader {
+          display: none;
+        }
+      </style>
+      <p style="font-family: Georgia, serif; text-align: center; padding: 3rem 1rem">
+        The Phulkari Heritage Archive requires JavaScript to view the collection.
+      </p>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

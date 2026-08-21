@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build/
+.opencode/
+samples/
+.env
+.env.example
+.env.*.local
+.DS_Store
+*.log
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.turbo
