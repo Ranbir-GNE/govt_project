@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Collection from './pages/Collection';
 import Motifs from './pages/Motifs';
 import ReetiRivaz from './pages/ReetiRivaz';
+import Activities from './pages/Activities';
 import Stories from './pages/Stories';
 import Artisans from './pages/Artisans';
 import Regions from './pages/Regions';
@@ -46,6 +47,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/collection" element={<Collection />} />
             <Route path="/motifs" element={<Motifs />} />
+            <Route path="/activities" element={<Activities />} />
             <Route path="/reeti-rivaz" element={<ReetiRivaz />} />
             <Route path="/stories" element={<Stories />} />
             <Route path="/artisans" element={<Artisans />} />

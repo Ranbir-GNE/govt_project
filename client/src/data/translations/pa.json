@@ -3,6 +3,7 @@
     "home": "ਘਰ",
     "collection": "ਸੰਗ੍ਰਹਿ",
     "motifs": "ਨਮੂਨੇ",
+    "activities": "ਗਤੀਵਿਧੀਆਂ",
     "reeti": "ਰੀਤੀ-ਰਿਵਾਜ",
     "artisans": "ਕਾਰੀਗਰ",
     "regions": "ਖੇਤਰ",
@@ -35,7 +36,26 @@
     "aboutThisMotif": "ਇਸ ਨਮੂਨੇ ਬਾਰੇ",
     "variations": "ਰੂਪ",
     "foundIn": "ਕਿੱਥੇ ਮਿਲਦਾ ਹੈ",
-    "skipToContent": "ਸਮੱਗਰੀ ਤੱਕ ਜਾਓ"
+    "skipToContent": "ਸਮੱਗਰੀ ਤੱਕ ਜਾਓ",
+    "significance": "ਮਹੱਤਵ",
+    "relatedMotifs": "ਸੰਬੰਧਿਤ ਨਮੂਨੇ",
+    "season": "ਮੌਸਮ",
+    "gallery": "ਗੈਲਰੀ",
+    "topic": "ਵਿਸ਼ੇ",
+    "date": "ਤਾਰੀਖ",
+    "mode": "ਤਰੀਕਾ",
+    "attendance": "ਹਾਜ਼ਰੀ",
+    "attendees": "ਹਾਜ਼ਰ",
+    "modeOnline": "آنਲਾਈਨ",
+    "modeOffline": "ਅਫ਼ਲਾਈਨ",
+    "modeHybrid": "ਹਾਈਬ੍ਰਿਡ",
+    "sessions": "ਸੈਸ਼ਨ"
+  },
+  "activities": {
+    "eyebrow": "ਜੀਵੰਤ ਰਵਾਇਤਾਂ",
+    "title": "ਗਤੀਵਿਧੀਆਂ",
+    "titlePa": "Activities",
+    "intro": "ਫੁਲਕਾਰੀ ਦੈਨਿਕ ਜੀਵਨ ਦੀਆਂ ਲੜੀਆਂ ਵਿੱਚ ਵਸਦੀ ਹੈ — ਤ੍ਰਿਣਜਨ ਦਾ ਚੱਕਰ, ਸ਼ਾਦੀ ਦਾ ਦਾਜ, ਰੰਗ ਦੀ ਵਾਤੀ, ਕਰਗਾ। ਹਰ ਗਤੀਵਿਧੀ ਆਪਣੇ ਆਪ ਵਿੱਚ ਨਮੂਨਿਆਂ, ਅਰਥਾਂ ਅਤੇ ਯਾਦਾਂ ਦੀ ਭਾਸ਼ਾ ਵਹੁੰਦੀ ਹੈ।"
   },
   "home": {
     "heroEyebrow": "ਪੰਜਾਬ ਦੀ ਕਢਾਈ ਵਿਰਾਸਤ",

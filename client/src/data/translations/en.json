@@ -3,6 +3,7 @@
     "home": "Home",
     "collection": "Collection",
     "motifs": "Motifs",
+    "activities": "Activities",
     "reeti": "Reeti-Rivaz",
     "artisans": "Artisans",
     "regions": "Regions",
@@ -41,7 +42,26 @@
     "aboutThisMotif": "About this motif",
     "variations": "Variations",
     "foundIn": "Found in",
-    "skipToContent": "Skip to content"
+    "skipToContent": "Skip to content",
+    "significance": "Significance",
+    "relatedMotifs": "Related Motifs",
+    "season": "Season",
+    "gallery": "Gallery",
+    "topic": "Topic",
+    "date": "Date",
+    "mode": "Mode",
+    "attendance": "Attendance",
+    "attendees": "attendees",
+    "modeOnline": "Online",
+    "modeOffline": "Offline",
+    "modeHybrid": "Hybrid",
+    "sessions": "Sessions"
+  },
+  "activities": {
+    "eyebrow": "Living Traditions",
+    "title": "Activities",
+    "titlePa": "ਗਤੀਵਿਧੀਆਂ",
+    "intro": "Phulkari lives in the rhythms of daily life — the trinjan circle, the wedding trousseau, the dye vat, the loom. Each activity carries its own vocabulary of motifs, meanings, and memories."
   },
   "home": {
     "heroEyebrow": "Punjab's embroidered heritage",

@@ -9,6 +9,7 @@ const NAV = [
   { to: '/', key: 'nav.home', end: true },
   { to: '/collection', key: 'nav.collection' },
   { to: '/motifs', key: 'nav.motifs' },
+  { to: '/activities', key: 'nav.activities' },
   { to: '/reeti-rivaz', key: 'nav.reeti' },
   { to: '/artisans', key: 'nav.artisans' },
   { to: '/regions', key: 'nav.regions' },
