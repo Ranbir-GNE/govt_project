@@ -92,11 +92,13 @@ export default function ActivityModal({ activity, onClose }) {
         {hasImages && (
           <div className="relative mt-8">
             <div className="flex h-full w-full items-center justify-center">
-            <img
-              src={pictureList[currentImageIndex]}
-              alt={`${activity.name} - image ${currentImageIndex + 1}`}
-              className="h-56 w-full rounded-xs object-cover md:h-72"
-            />
+            <div className="flex h-full w-full items-center justify-center">
+  <img
+    src={pictureList[currentImageIndex]}
+    alt={`${activity.name} - image ${currentImageIndex + 1}`}
+    className="max-h-full max-w-full rounded-xs object-contain"
+  />
+</div>
 </div>
             {pictureList.length > 1 && (
               <>

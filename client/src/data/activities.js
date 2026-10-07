@@ -92,7 +92,12 @@ export const activities = [
     significance:
       'Promotes awareness and preservation of traditional artistic knowledge through experiential learning, while reinforcing the IKS project’s focus on traditional crafts, motifs, colours, and cultural expression.',
     pictures: [
-      //'/images/activities/cultural-painting-2026-1.jpg',
+      "/images/activity_3/img3.1.jpeg",
+      "/images/activity_3/img3.2.jpeg",
+      "/images/activity_3/img3.3.jpeg",
+      "/images/activity_3/img3.4.jpeg",
+      "/images/activity_3/img3.5.jpeg",
+      "/images/activity_3/img3.6.jpeg",
     ],
     variations: [
       {

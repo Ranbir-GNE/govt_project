@@ -20,5 +20,8 @@
     "museum"
   ],
   "author": "Phulkari Heritage Initiative",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
