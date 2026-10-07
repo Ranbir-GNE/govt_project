@@ -4,8 +4,9 @@ import { useTranslation } from 'react-i18next';
 
 export default function ActivityCard({ activity, index = 0 }) {
   const { t } = useTranslation();
-  const hasImage = activity.images && activity.images.length > 0;
-  const firstImage = hasImage ? activity.images[0] : null;
+  const pictureList = activity.images || activity.pictures || [];
+  const hasImage = pictureList.length > 0;
+  const firstImage = hasImage ? pictureList[0] : null;
 
   const formatDate = (dateStr) => {
     const d = new Date(dateStr);

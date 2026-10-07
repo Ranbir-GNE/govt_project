@@ -45,7 +45,7 @@ export default function Modal({ open, onClose, labelledBy, children, wide = fals
             exit={{ opacity: 0, y: 16, scale: 0.98 }}
             transition={{ duration: 0.3, ease: 'easeOut' }}
             className={`relative max-h-full w-full overflow-y-auto rounded-sm bg-paper shadow-2xl outline-none ${
-              wide ? 'max-w-5xl' : 'max-w-3xl'
+              wide ? 'max-w-6xl' : 'max-w-3xl'
             }`}
           >
             <button

@@ -55,13 +55,19 @@
     "modeOnline": "Online",
     "modeOffline": "Offline",
     "modeHybrid": "Hybrid",
-    "sessions": "Sessions"
+    "sessions": "Sessions",
+    "backToHome": "Back to home"
   },
   "activities": {
     "eyebrow": "Living Traditions",
     "title": "Activities",
     "titlePa": "ਗਤੀਵਿਧੀਆਂ",
     "intro": "Phulkari lives in the rhythms of daily life — the trinjan circle, the wedding trousseau, the dye vat, the loom. Each activity carries its own vocabulary of motifs, meanings, and memories."
+  },
+  "underConstruction": {
+    "title": "Under Construction",
+    "subtitle": "This section is being woven",
+    "description": "We're carefully stitching this part of the archive. Please visit again soon to explore more of Punjab's embroidered heritage."
   },
   "home": {
     "heroEyebrow": "Punjab's embroidered heritage",

@@ -1,149 +1,161 @@
 export const activities = [
   {
-    id: 'fdp-2024-01',
-    name: 'FDP on Digital Pedagogy',
-    namePa: 'ਡਿਜੀਟਲ ਪੈਡਾਗੋਜੀ \'ਤੇ ਐਫਡੀਪੀ',
-    subtitle: 'Enhancing Teaching with Technology',
-    category: 'FDP',
-    date: '2024-01-15',
-    topic: 'Digital Pedagogy & Online Teaching Tools',
+    id: 'iks-2026-01',
+    name: 'Teej Celebration 2026',
+    namePa: 'ਤੀਜ ਸਮਾਰੋਹ 2026',
+    subtitle: 'Celebrating Punjab’s Living Cultural Heritage',
+    category: 'Cultural Celebration',
+    date: '2026-08-06',
+    topic: 'Punjabi Cultural Practices, Folk Traditions & Phulkari',
+    mode: 'offline',
+    attendance: 35,
+    description:
+      'Teej Celebration 2026 was organized by the Department of Applied Sciences, GNDEC, Ludhiana, under the aegis of the IKS Cell. The celebration brought together traditional Punjabi attire, folk music, folk dance, festive customs, and appreciation of Phulkari to demonstrate how cultural knowledge is transmitted through participation and everyday practice.',
+    significance:
+      'Promotes the preservation, promotion, and revitalization of Punjab’s intangible cultural heritage by highlighting traditional practices, oral traditions, performing arts, cultural memory, and Phulkari as embodied knowledge.',
+    pictures: [
+      "/images/activity_2/img2.1.jpeg",
+      "/images/activity_2/img2.2.jpeg",
+      "/images/activity_2/img2.3.jpeg",
+      "/images/activity_2/img2.4.jpeg",
+      "/images/activity_2/img2.5.jpeg",
+      "/images/activity_2/img2.6.jpeg",
+    ],
+    variations: [
+      {
+        name: 'Traditional Punjabi Attire',
+        note: 'Experience and appreciation of traditional Punjabi dress and cultural expression',
+      },
+      {
+        name: 'Folk Music & Dance',
+        note: 'Learning through movement, rhythm, song, and participation',
+      },
+      {
+        name: 'Phulkari Appreciation',
+        note: 'Understanding Phulkari through stitching techniques, motifs, colours, symbolism, and inherited skills',
+      },
+    ],
+    relatedMotifs: [],
+  },
+
+  {
+    id: 'iks-2026-02',
+    name: 'NEP Orientation & Sensitization Programme 2026',
+    namePa: 'ਐਨਈਪੀ ਓਰੀਐਂਟੇਸ਼ਨ ਅਤੇ ਸੰਵੇਦਨਸ਼ੀਲਤਾ ਪ੍ਰੋਗਰਾਮ 2026',
+    subtitle: 'Understanding NEP 2020, IKS & Institutional Practice',
+    category: 'Orientation Programme',
+    date: '2026-08-04',
+    topic:
+      'Implementing the National Education Policy (NEP) 2020 in Higher Education: Reforms, Indian Knowledge Systems and Institutional Practice',
     mode: 'online',
-    attendance: 45,
+    attendance: 55,
     description:
-      'A comprehensive faculty development program covering modern digital teaching methodologies, LMS integration, interactive content creation, and student engagement strategies for online and hybrid classrooms.',
+      'An eleven-day professional development initiative organized by UGC-MMTTC, S.G.T.B. Khalsa College, University of Delhi, in collaboration with GNDEC, Ludhiana, under the aegis of the IQAC and IKS Cell. The programme covered multidisciplinary education, curriculum development, pedagogy, assessment, research and development, Indian Knowledge Systems, multilingualism, academic leadership, governance, inclusive education, ICT, and skill development.',
     significance:
-      'Equips faculty with essential digital skills for effective online teaching and blended learning approaches.',
+      'Strengthens faculty and academic stakeholders’ awareness and preparedness for implementing NEP 2020 reforms, integrating Indian Knowledge Systems and multilingualism, and applying innovative, inclusive, technology-enabled and research-driven approaches in higher education.',
     pictures: [
-      //'/images/activities/fdp-digital-1.jpg',
-      
+      //'/images/activities/nep-orientation-2026-1.jpg',
     ],
     variations: [
-      { name: 'Session 1: LMS Fundamentals', note: 'Moodle/Canvas basics and course setup' },
-      { name: 'Session 2: Interactive Content', note: 'H5P, Genially, and multimedia creation' },
-      { name: 'Session 3: Assessment Online', note: 'Digital rubrics, proctoring, and feedback tools' },
+      {
+        name: 'NEP 2020 Reforms',
+        note: 'Holistic and multidisciplinary education, curriculum, pedagogy, assessment, and research',
+      },
+      {
+        name: 'Indian Knowledge Systems & Multilingualism',
+        note: 'Integrating India’s intellectual, cultural, and linguistic heritage into higher education',
+      },
+      {
+        name: 'Academic Leadership & Governance',
+        note: 'Leadership, governance, institutional autonomy, and student choice',
+      },
+      {
+        name: 'Inclusive & Technology-Enabled Education',
+        note: 'Skill development, student diversity, inclusive education, ICT, and learner-centred approaches',
+      },
     ],
     relatedMotifs: [],
   },
+
   {
-    id: 'fdp-2024-02',
-    name: 'FDP on Research Methodology',
-    namePa: 'ਰਿਸਰਚ ਮੈಥਡਾਲਾਜੀ \'ਤੇ ਐਫਡੀਪੀ',
-    subtitle: 'Advanced Research Techniques',
-    category: 'FDP',
-    date: '2024-02-20',
-    topic: 'Qualitative & Quantitative Research Methods',
+    id: 'iks-2026-03',
+    name: 'One-day Workshop on the Theme of Cultural Painting',
+    namePa: 'ਸੱਭਿਆਚਾਰਕ ਚਿੱਤਰਕਾਰੀ ਵਿਸ਼ੇ ’ਤੇ ਇੱਕ-ਦਿਨਾ ਵਰਕਸ਼ਾਪ',
+    subtitle: 'Exploring Traditional Art, Techniques & Cultural Expression',
+    category: 'Workshop',
+    date: '2026-09-23',
+    topic: 'Indian Cultural Painting, Traditional Techniques & Symbolism',
     mode: 'offline',
-    attendance: 38,
+    attendance: 20,
     description:
-      'Intensive workshop on research design, literature review, data collection methods, statistical analysis using SPSS/R, and academic writing for high-impact publications.',
+      'A one-day hands-on workshop organized by the Department of Applied Sciences and the IKS Cell, GNDEC, Ludhiana, under the IKS Internship Scheme Project "Threads of Tradition: Embodied Wisdom in Phulkari and Indian Cultural Practices". Participants explored traditional and contemporary painting practices, cultural symbolism, artistic techniques, and forms of Indian artistic expression.',
     significance:
-      'Strengthens faculty research capabilities for funded projects and quality publications.',
+      'Promotes awareness and preservation of traditional artistic knowledge through experiential learning, while reinforcing the IKS project’s focus on traditional crafts, motifs, colours, and cultural expression.',
     pictures: [
-      //'/images/activities/fdp-research-1.jpg',
+      //'/images/activities/cultural-painting-2026-1.jpg',
     ],
     variations: [
-      { name: 'Module 1: Research Design', note: 'Formulating questions, hypotheses, and frameworks' },
-      { name: 'Module 2: Data Analysis', note: 'SPSS/R hands-on with real datasets' },
-      { name: 'Module 3: Publication Ethics', note: 'Plagiarism, predatory journals, open access' },
+      {
+        name: 'Traditional Painting Practices',
+        note: 'Exploration of traditional and contemporary Indian painting practices',
+      },
+      {
+        name: 'Techniques & Symbolism',
+        note: 'Understanding traditional techniques, symbolism, and cultural meaning',
+      },
+      {
+        name: 'Hands-on Learning',
+        note: 'Learning through practice, observation, participation, and creative expression',
+      },
+      {
+        name: 'Cultural Heritage Preservation',
+        note: 'Supporting continuity of indigenous artistic knowledge for future generations',
+      },
     ],
     relatedMotifs: [],
   },
+
   {
-    id: 'fdp-2024-03',
-    name: 'FDP on Outcome-Based Education',
-    namePa: 'ਆਉਟਕਮ-ਅਧਾਰਿਤ ਸਿੱਖਿਆ \'ਤੇ ਐਫਡੀਪੀ',
-    subtitle: 'OBE Implementation & Assessment',
-    category: 'FDP',
-    date: '2024-03-10',
-    topic: 'Curriculum Design & Assessment Mapping',
-    mode: 'offline',
-    attendance: 52,
-    description:
-      'Hands-on workshop for designing outcome-based curriculum, mapping CO-PO-PSO, creating assessment rubrics, and continuous quality improvement processes for NBA/NAAC accreditation.',
-    significance:
-      'Critical for institutional accreditation and quality assurance in higher education.',
-    pictures: [
-      //'/images/activities/fdp-obe-1.jpg',
-      
-    ],
-    variations: [
-      { name: 'Workshop 1: CO-PO Mapping', note: 'Course outcomes to program outcomes alignment' },
-      { name: 'Workshop 2: Rubric Design', note: 'Analytic and holistic rubrics for assessment' },
-      { name: 'Workshop 3: Attainment Calculation', note: 'Direct and indirect attainment methods' },
-    ],
-    relatedMotifs: [],
-  },
-  {
-    id: 'fdp-2024-04',
-    name: 'FDP on AI in Education',
-    namePa: 'ਸਿੱਖਿਆ ਵਿੱਚ ਏਆਈ \'ਤੇ ਐਫਡੀਪੀ',
-    subtitle: 'Leveraging AI for Teaching & Learning',
-    category: 'FDP',
-    date: '2024-04-05',
-    topic: 'Generative AI Tools for Academic Excellence',
+    id: 'iks-2026-04',
+    name: 'IKS Connect: Indian Wisdom, Culture, Technology & NEP 2020',
+    namePa: 'ਆਈਕੇਐਸ ਕਨੈਕਟ: ਭਾਰਤੀ ਗਿਆਨ, ਸੱਭਿਆਚਾਰ, ਤਕਨਾਲੋਜੀ ਅਤੇ ਐਨਈਪੀ 2020',
+    subtitle: 'Connecting Indian Wisdom with Modern Education & Technology',
+    category: 'Expert Talk',
+    date: '2026-10-07',
+    topic:
+      'Indian Knowledge Systems, Indian Culture and Traditional Wisdom in the Context of Modern Technology and NEP 2020',
     mode: 'online',
-    attendance: 67,
+    attendance: 95,
     description:
-      'Exploring generative AI applications in curriculum design, content creation, personalized learning, automated assessment, and research assistance. Hands-on with ChatGPT, Claude, and educational AI platforms.',
+      'An online expert talk organized by the Department of Applied Sciences and the IKS Cell, GNDEC, Ludhiana, as part of the IKS Internship Scheme Project "Threads of Tradition: Embodied Wisdom in Phulkari and Indian Cultural Practices". The session explored the continuing relevance of Indian Knowledge Systems, traditional wisdom, culture, and values in a technology-driven world and their relationship with contemporary education.',
     significance:
-      'Prepares faculty for AI-augmented teaching and keeps institution at forefront of ed-tech innovation.',
+      'Connects traditional Indian knowledge with modern education and technology, supporting the vision of NEP 2020 and broadening awareness of heritage, culture, indigenous knowledge, learning, and innovation.',
     pictures: [
-      //'/images/activities/fdp-ai-1.jpg',
-      
+      "/images/activity_1/img1.1.jpeg",
+      "/images/activity_1/img1.2.jpeg",
+      "/images/activity_1/img1.3.jpeg",
+      "/images/activity_1/img1.4.jpeg",
+      "/images/activity_1/img1.5.jpeg",
+      "/images/activity_1/img1.6.jpeg",
+      "/images/activity_1/img1.7.jpeg"
     ],
     variations: [
-      { name: 'Session 1: AI Fundamentals', note: 'LLMs, prompts, and educational use cases' },
-      { name: 'Session 2: Content Generation', note: 'Lesson plans, quizzes, rubrics with AI' },
-      { name: 'Session 3: Ethics & Policy', note: 'Academic integrity, bias, institutional guidelines' },
-    ],
-    relatedMotifs: [],
-  },
-  {
-    id: 'fdp-2024-05',
-    name: 'FDP on Intellectual Property Rights',
-    namePa: 'ਬੌਧਿਕ ਸੰਪਤੀ ਅਧਿਕਾਰ \'ਤੇ ਐਫਡੀਪੀ',
-    subtitle: 'Patents, Copyrights & Innovation Protection',
-    category: 'FDP',
-    date: '2024-05-12',
-    topic: 'IPR Filing, Commercialization & Tech Transfer',
-    mode: 'hybrid',
-    attendance: 29,
-    description:
-      'Comprehensive program on patent search, drafting, filing procedures, copyright registration, technology transfer mechanisms, and university IP policy. Includes case studies of successful academic patents.',
-    significance:
-      'Encourages innovation culture and revenue generation through IP commercialization.',
-    pictures: [
-      //'/images/activities/fdp-ipr-1.jpg'
-    ],
-    variations: [
-      { name: 'Module 1: Patent Basics', note: 'Prior art search, claims drafting, filing process' },
-      { name: 'Module 2: Copyright & Trademarks', note: 'Creative works, software, branding protection' },
-      { name: 'Module 3: Commercialization', note: 'Licensing, startups, industry partnerships' },
-    ],
-    relatedMotifs: [],
-  },
-  {
-    id: 'fdp-2024-06',
-    name: 'FDP on Green Chemistry & Sustainability',
-    namePa: 'ਗ੍ਰੀਨ ਕੈਮਿਸਟਰੀ ਅਤੇ ਸਥਾਇਤਵ \'ਤੇ ਐਫਡੀਪੀ',
-    subtitle: 'Sustainable Practices in Lab & Curriculum',
-    category: 'FDP',
-    date: '2024-06-18',
-    topic: 'Green Chemistry Principles & Sustainable Lab Design',
-    mode: 'offline',
-    attendance: 34,
-    description:
-      'Workshop on 12 principles of green chemistry, microscale experiments, waste reduction, safer alternatives, and integrating sustainability into chemistry curriculum. Includes lab demonstration sessions.',
-    significance:
-      'Promotes environmental responsibility and reduces institutional chemical waste footprint.',
-    pictures: [
-      //'/images/activities/fdp-green-1.jpg',
-      
-    ],
-    variations: [
-      { name: 'Session 1: Principles & Metrics', note: 'Atom economy, E-factor, PMI calculations' },
-      { name: 'Session 2: Lab Redesign', note: 'Microscale kits, solvent substitution, energy efficiency' },
-      { name: 'Session 3: Curriculum Integration', note: 'Green experiments for UG/PG lab courses' },
+      {
+        name: 'Indian Wisdom & Modern Technology',
+        note: 'Exploring how traditional wisdom and technology can complement each other',
+      },
+      {
+        name: 'Expert Insights',
+        note: 'Academic perspectives on Education and Indian Knowledge Systems',
+      },
+      {
+        name: 'NEP 2020',
+        note: 'Connecting Indian knowledge traditions, culture, and values with contemporary education',
+      },
+      {
+        name: 'Student Engagement',
+        note: 'Online participation with e-certificates and wider access without travel constraints',
+      },
     ],
     relatedMotifs: [],
   },
