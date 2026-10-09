@@ -2,7 +2,7 @@ export const activities = [
   {
     id: 'iks-2026-01',
     name: 'Teej Celebration 2026',
-    namePa: 'ਤੀਜ ਸਮਾਰੋਹ 2026',
+    namePa: 'ਤੀਜ ਸਮਾਰੋਹ 2026',   
     subtitle: 'Celebrating Punjab’s Living Cultural Heritage',
     category: 'Cultural Celebration',
     date: '2026-08-06',
@@ -14,9 +14,6 @@ export const activities = [
     significance:
       'Promotes the preservation, promotion, and revitalization of Punjab’s intangible cultural heritage by highlighting traditional practices, oral traditions, performing arts, cultural memory, and Phulkari as embodied knowledge.',
     pictures: [
-      "/images/activity_2/img2.1.jpeg",
-      "/images/activity_2/img2.2.jpeg",
-      "/images/activity_2/img2.3.jpeg",
       "/images/activity_2/img2.4.jpeg",
       "/images/activity_2/img2.5.jpeg",
       "/images/activity_2/img2.6.jpeg",
@@ -54,7 +51,9 @@ export const activities = [
     significance:
       'Strengthens faculty and academic stakeholders’ awareness and preparedness for implementing NEP 2020 reforms, integrating Indian Knowledge Systems and multilingualism, and applying innovative, inclusive, technology-enabled and research-driven approaches in higher education.',
     pictures: [
-      //'/images/activities/nep-orientation-2026-1.jpg',
+      "/images/activity_4/img4.1.jpeg",
+      "/images/activity_4/img4.2.jpeg",
+      "/images/activity_4/img4.3.jpeg",
     ],
     variations: [
       {
